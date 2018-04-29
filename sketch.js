@@ -63,7 +63,7 @@ function setup()
         }
     }
     
-    createCanvas(1280,720); // Create Any Size Canvas.
+    createCanvas(innerWidth,innerHeight); // Create Any Size Canvas.
     frameRate(60); // Set Optomistic Frame Rate.
     noFill(); // Stop Drawing inside of shapes.
 }
